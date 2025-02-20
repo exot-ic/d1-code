@@ -2,4 +2,4 @@ name = "your-worker-name"
 type = "javascript"
 account_id = "YOUR_ACCOUNT_ID"
 workers_dev = true
-main = "index.js" # Or the name of your script
+main = "main.html" # Or the name of your script
