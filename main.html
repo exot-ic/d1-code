@@ -1,18 +1,5 @@
-This code snippet represents a simple way to add a particle effect background to a website using the particles.js library. Let's break down what each part does and then create a basic HTML file incorporating it.
 
-Explanation:
 
-    <div id="particles-js">: This creates a <div> element with the ID "particles-js".  This <div> will act as the container for the particle effect.  It's important that this element covers the area where you want the particles to appear (e.g., the whole background).
-
-    <canvas class="particles-js-canvas-el" ...>: Inside the <div>, a <canvas> element is created.  The particles.js library uses the HTML5 canvas element to draw the particles.
-        class="particles-js-canvas-el": This class is likely used by the particles.js library to target the canvas.
-        style="width: 100%; height: 100%;": This CSS style makes the canvas take up the full width and height of its parent container (the <div> with the ID "particles-js"). This is crucial for the effect to fill the desired area.
-        width="1276" height="676": These attributes set the initial width and height of the canvas. While the CSS makes it responsive, these initial values are important for the library's calculations. It's best practice to keep these values proportional to the aspect ratio you want.
-
-Creating a Blank Website with Particle Background:
-
-Here's a complete HTML file that incorporates the particle effect:
-HTML
 
 <!DOCTYPE html>
 <html>
